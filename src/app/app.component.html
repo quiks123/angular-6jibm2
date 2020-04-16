@@ -1,0 +1,16 @@
+<hello name="{{ name }}"></hello>
+<p>
+  Start editing to see some magic happen :)
+</p>
+
+<h2>Power Boost Calculator</h2>
+    <div><input [(ngModel)]="power"></div>
+    <div><input [(ngModel)]="factor"></div>
+    <p>
+      Super Hero Power: {{power | exponentialStrength: factor}}
+    </p>
+<button (click)="KlikButton()">Tekan</button>
+
+<div *ngFor = "let hasill of hasil">
+  
+</div>
